@@ -1,0 +1,29 @@
+<mat-toolbar class="toolbar-content">
+
+  <button><mat-icon (click)="sidenav.toggle()">menu</mat-icon></button>
+  
+  </mat-toolbar>
+  
+  <mat-sidenav-container>
+      <mat-sidenav  #sidenav opened ="false" mode="side" > 
+          <mat-list class="list">
+
+            <mat-list-item> 
+              <mat-icon class="icon">arrow_forward_ios</mat-icon>
+              <a routerLink="firstnav" routerLinkActive="active" class="effect-underline">First Navigation</a>
+          </mat-list-item>
+          
+          <mat-list-item> 
+              <mat-icon class="icon">arrow_forward_ios</mat-icon>
+              <a routerLink="secondnav" routerLinkActive="active" class="effect-underline">Second Navigation</a>
+          </mat-list-item>
+        
+        </mat-list> 
+
+      </mat-sidenav>
+  
+  <mat-sidenav-content>
+  <router-outlet></router-outlet>
+  </mat-sidenav-content>
+  
+  </mat-sidenav-container>

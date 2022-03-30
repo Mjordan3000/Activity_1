@@ -1,0 +1,18 @@
+.full-width {
+    width: 100%;
+}
+
+td {
+    padding-right: 10px;
+}
+
+.email{
+    width: 400px;
+}
+
+.card {
+    color: rgb(6, 6, 240);
+    padding: 15px;
+    margin-top: 10px;
+    border-color: rgb(5, 5, 5);
+}

@@ -1,0 +1,31 @@
+.toolbar-content {
+    background-color: #be0303;
+}
+
+.button-menu {
+    margin-left: auto;
+    color: rgb(14, 13, 13);
+}
+
+mat-sidenav-container{
+    height: 100%;
+}
+
+mat-sidenav, mat-sidenav-content{
+    padding: 8px;
+}
+
+mat-sidenav{
+    background-color: #d8d8d8;
+    width: 210px;
+}
+
+a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a70b00;
+}
